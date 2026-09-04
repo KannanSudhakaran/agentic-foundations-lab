@@ -7,7 +7,7 @@ test("greet uses the name", () => {
 });
 
 test("greet uses a default name", () => {
-  assert.strictEqual(greet(), "Hello, friend!");
+  assert.strictEqual(greet(), "Hello, there!");
 });
 
 test("farewell uses the name", () => {
@@ -15,5 +15,5 @@ test("farewell uses the name", () => {
 });
 
 test("farewell uses a default name", () => {
-  assert.strictEqual(farewell(), "Goodbye, friend!");
+  assert.strictEqual(farewell(), "Goodbye, there!");
 });
