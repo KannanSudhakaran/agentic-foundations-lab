@@ -13,3 +13,7 @@ export function farewell(name = "friend") {
 
   return `Goodbye, ${name}!`;
 }
+
+const greeting = { greet, farewell };
+
+export default greeting;
